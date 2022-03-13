@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./js/d3/d3.js"></script>
+  <script src="./js/d3/d3.min.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js"></script>
+  <title>동아4</title>
+</head>
+<body>
+  <section id="backmap"></section>
+  <section id="patients-graph">
+    <div>
+      <div style="text-align: center; margin-bottom: 20px; font-size: 2rem; font-weight: bold;">
+        확진자수그래프
+      </div>
+      <div id="tooltip" class="hidden">
+        <p><b id="value"></b></p>
+      </div>
+      <svg width="1060" height="400"></svg>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="./js/s3.js"></script>
+</body>
+</html>
